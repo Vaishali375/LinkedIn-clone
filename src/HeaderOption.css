@@ -1,0 +1,23 @@
+.headerOption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    color: gray;
+    cursor: pointer; /* This is new for me Amazing+++*/
+}
+
+.headerOption__title{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.headerOption__icon{
+    object-fit: contain;
+    height: 25px !important; /* something new which u have done first time*/
+    width: 25px !important;
+}
+
+.headerOption:hover{
+    color: black;
+}
